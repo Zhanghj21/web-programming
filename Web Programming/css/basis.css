@@ -1,0 +1,58 @@
+body {
+    background: rgb(160, 159, 159);
+    line-height: 2;
+    min-width: 1600px;
+    cursor:url(../picture-audio-video/car.ico),auto;
+    /* Set Page Background and Row Height */
+}
+
+.menu-navigation {
+    width: 100%;
+}
+
+.menu-navigation li {
+    float: left;
+}
+
+.menu-navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 22px;
+    /* Set the style of a label */
+}
+
+.menu-navigation a:hover {
+    color: #c9d60c;
+    /* Pseudo class selector for a element */
+}
+
+.menu-navigation a:active {
+    color: #18081a;
+    /* Pseudo class selector for a element */
+}
+
+.menu-firstli {
+    margin-left: 55px;
+}
+
+.article-container {
+    background: white;
+    width: 90%;
+    margin: 100px auto;
+    /* Set the style of article */
+}
+footer {
+    background: rgb(17, 40, 143);
+    color: #fff;
+    text-align: center;
+    width: 90%;
+    margin:-100px auto 100px auto;
+     /* Footer Style */
+}
+ footer span {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    
+}

@@ -1,0 +1,44 @@
+html{
+    scroll-snap-type: y mandatory;
+}
+body {
+    background: #F1DFC4;
+}
+/* Set background color */
+section{
+    block-size: 100vh;
+    scroll-snap-align: center;
+    scroll-snap-stop:always ;
+    display: grid;
+    place-items: center;
+}
+section a{
+    text-decoration: none;
+    font-size: 150px;
+    font-family: 仿宋;
+    font-weight: 900;
+    text-shadow: rgb(17, 35, 119) 5px 8px;
+        color: rgb(196, 194, 194);
+}
+/* Set WordArt */
+section a:hover{
+        color: rgb(247, 243, 243);
+        border:30px blue dashed;
+}
+/* Set the effect of mouse over */
+section a:active{
+    text-decoration: none;
+        color: rgb(190, 10, 10);
+}
+/* Set the effect of mouse activation */
+section p{
+    font-size: 60px;
+    color: rgb(151, 144, 144);
+    text-indent: 2em;
+    border:30px #F1DFC4 dashed;
+}
+/* Style the page description */
+section p:hover{
+    border:30px blue dashed;
+}
+/* Set the style when the mouse hovers over the page description */

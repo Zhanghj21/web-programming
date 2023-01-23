@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <link rel="shortcut icon" href="../picture-audio-video/car.ico" type="image/x-icon">
+    <!--Station sign -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!--reset CSS -->
+    <link rel="stylesheet" href="../css/basis.css">
+    <!--basis CSS -->
+    <link rel="stylesheet" href="../css/conteact.css">
+    <!--CSS of conteact -->
+    <script type="text/javascript" src="../js/canvas.js "></script>
+    <!--canvas -->
+    <script type="text/javascript" src="../js/form.js"></script>
+    <!--form -->
+</head>
+<body onload="draw()">
+    <canvas id="canvas" width="150" height="80"></canvas>
+    <ul class="menu-navigation">
+        <li class="menu-firstli"><a href="../home.html">home page</a></li>
+        <li><a href="../2function/function.html">league table</a></li>
+        <li><a href="../3product/product.html">product</a></li>
+        <li><a href="../4conteact/conteact.html">register</a></li>
+        <li><a href="../5introduct/introduction.html">introduction</a></li>
+        <!--Navigation between pages -->
+    </ul>
+    <article class="article-container">
+        <div class="distance">
+            <form action="" method=""  class="form-set">
+               <img src="./conteact_pic/tb1.png" alt="Icon error" width="45px" height="45px"> 
+               <input type="radio" name="yhzc" checked><span class="form_span">User Registration</span>
+                <input type="radio" name="yhdl"> <span class="form_span">User Login</span><br>
+                <img src="./conteact_pic/tb2.png" alt="Icon error" width="45px" height="45px">
+                 <span class="form_span">user name:</span>
+                <input  type="text" id="username" placeholder="1923079" onblur="UserName()" ><br>
+                <img src="./conteact_pic/tb3.png" alt="Icon error" width="45px" height="45px"> 
+                <span class="form_span">full name:</span>
+                <input type="text" name="name" placeholder="ZHANG"><br>
+                <img src="./conteact_pic/tb4.png" alt="Icon error" width="45px" height="45px"> 
+                <span class="form_span">Birthday:</span>
+                <input type="date" name="birthday" value="2022-04-19"><br>
+                <img src="./conteact_pic/tb56.png" alt="Icon error" width="45px" height="45px"> 
+                 <span class="form_span">Password:</span>
+                <input id="password" type="text" name="password" onblur="Password()"><br>
+                <img src="./conteact_pic/tb56.png" alt="Icon error" width="45px" height="45px"> 
+                 <span class="form_span">Confirm password:</span>
+                <input id="passwordcf" type="text" name="passwordcf" onblur="Passwordcf()"><br>
+                <img src="./conteact_pic/tb7.png" alt="Icon error" width="45px" height="45px">
+                 <span class="form_span">Telephone:</span>
+                <input id="tell" type="text" name="tell" onblur="Tell()"><br>
+                <img src="./conteact_pic/tb8.png" alt="Icon error" width="45px" height="45px">  
+                <span class="form_span">Email:</span>
+                <input id="mail" type="text" name="mail" onblur="Mail()"><br>
+                <img src="./conteact_pic/tb9.png" alt="Icon error" width="45px" height="45px">
+                 <span class="form_span">occupation:</span> 
+                <input list="browsers" name="browser">
+                <datalist id="browsers">
+                    <option value="teacher">
+                    <option value="student">
+                    <option value="parents">
+                </datalist><br>
+                <img src="./conteact_pic/tb10.png" alt="Icon error" width="45px" height="45px">
+                 <span class="form_span">Product purchase:</span>
+                <select id="select" onchange="gmcp()">
+                    <option value="shirt">shirt</option>
+                    <option value="trouser">trouser</option>
+                    <option value="items">items</option>
+                    <option value="others">others</option>
+                </select><br>
+                <img src="./conteact_pic/tips.png" alt="Icon error" width="45px" height="45px"> 
+                <span class="form_span">
+                    No.:<span id="show_index"></span>
+                    Content:<span id="show_text"></span>
+                    value: <span id="show_value"></span>
+                    you<span id="show_isSelected"></span> 
+                    items
+                </span>
+                
+                
+                <br>
+                <img src="./conteact_pic/tb11.png" alt="Icon error" width="45px" height="45px"> 
+                <span class="form_span">Address:</span>
+                <textarea cole="10" name="ta" placeholder="Enter home address"></textarea> 
+                <br><input type="submit" value="Sign in" class="buttom_size first_buttom">
+                <input type="reset" value="Reset" class="buttom_size">
+
+            </form>
+</article>
+
+    <div align="center"> &copy;ZHANGHAOJUN FUYUFAN ZHOUYIWEN GUANHAOYUN, all rights reserved. No part of this website is allowed to be reproduced without written permission.
+        <!-- copyright -->
+    <a href="https://www.chelseafc.com"><img class="img_position" src="../picture-audio-video/car.png" alt="car photo mistake" width="50" height="50"></a> </div>
+</body>
+</html>

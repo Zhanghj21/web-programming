@@ -1,0 +1,17 @@
+/* Set the style of the four news interfaces */
+pre{
+color: green;
+overflow:auto;
+text-overflow: ellipsis;
+margin-top: 40px;
+}
+pre h1{
+    color: red;
+    margin-left: 50px;
+}
+pre span{
+    color:blue;
+}
+.new {
+    position: fixed;
+}

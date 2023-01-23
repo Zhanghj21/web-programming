@@ -1,0 +1,51 @@
+body{
+    background: rgb(160, 159, 159);
+}
+/* Set background color */
+.article-container {
+    background: white;
+    width: 80%;
+    margin: 100px auto;
+}
+.article-container .distance{
+ padding: 100px;
+}
+.article-container .distance .form-set {
+    margin-left: 120px;
+    background: white;
+}
+.article-container .distance .form-set .form_span {
+    font-family: 黑体;
+    font-weight: 100;
+    color: rgb(17, 40, 143);
+    font-size: 45px;
+}
+.article-container .distance .form-set .first_buttom{
+margin-left: 300px;
+}
+.article-container .distance .form-set .buttom_size{
+    font-size: 30px; 
+    width:130px; 
+    height: 100px; 
+    line-height: 30px;
+color: white;
+background-color: rgb(17, 40, 143);
+border: 4px solid black;
+border-radius:50%;
+margin-right: 40px;
+}
+/* The style of the login and redo buttons */
+.article-container .distance .form-set .buttom_size:hover{
+color: white;
+background: rgb(17, 40, 143);
+}
+/* On mouse over */
+.article-container .distance .form-set .buttom_size:active{
+    font-weight: 100;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(17, 40, 143), 0 0 0.2em rgb(17, 40, 143);
+color: rgb(31, 105, 170);
+border-color: cadetblue;
+border-style:hidden; 
+background: white;
+}
+/* After mouse click */

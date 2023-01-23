@@ -1,0 +1,85 @@
+.article-container{
+    height: 2900px;
+}
+.article-container header {
+    background: rgb(17, 40, 143);
+    color: #fff;
+    text-align: center;
+     /* Header Style */
+}
+.article-container header h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+}
+.article-container header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+}
+.line-center {
+    display: table;
+    margin: auto;
+    width:1500px;
+}
+.article-container  .main_box{
+    content: "";
+    display: block;
+    clear: both;
+    margin: 30px 0 0 5px;
+}
+/* Solve the problem of high collapse */
+.article-container .main_box .product_box{
+    width: 320px;
+    height: 530px;
+      display: inline-block;
+    margin:15px;
+    border: 2px white groove;
+    vertical-align: middle;
+}
+.article-container .main_box .product_box:hover{
+    border: 2px rgb(17, 40, 143) groove; 
+}
+/* Set the border style when the mouse hovers over the item */
+.article-container .main_box .product_box .product_img{
+margin: 20px;
+}
+.article-container .main_box .product_box .product_name{
+white-space:nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+text-align: center;
+
+}
+.article-container .main_box .product_box .product_name a{
+    text-decoration:none;
+    color: rgb(17, 40, 143);
+    
+    }
+.article-container .main_box .product_box .product_prise{
+color:rgb(17, 40, 143);
+text-align: center;
+line-height: 2.5;
+font-style: italic;
+font-weight: 1000;
+font-size: 22px;
+}
+.article-container .main_box .product_box .product_prise::first-letter{
+font-size: 1.5em;
+}
+/* Select the first character to set its style */
+.article-container .main_box .product_box .product_original_prise{
+    text-decoration:line-through;
+    text-align: center;
+font-style: italic;
+border-bottom: 1px groove rgb(233, 231, 231);
+width: 300px;
+margin: auto;
+}
+.article-container .main_box .product_box .product_sell{
+float: right;
+margin-top: 15px;
+color: grey;
+}
+ 
